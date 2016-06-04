@@ -2,18 +2,18 @@
 
 Dex2oatHunter aims at unpacking hardened dex file automatically.
 
-Dex2oatHunter is based on the source code of Android runtime. It is composed of modified ART runtime. You can use the modified runtime to replace the original content in Android source codes (Android 4.4). The modification is mainly in "art/dex2oat/dex2oat.cc.cc" (ART).
+Dex2oatHunter is based on the source code of Android runtime. It is composed of modified ART runtime. You can use the modified runtime to replace the original content in Android source codes (Android 4.4). The modification is mainly in "art/dex2oat/dex2oat.cc" (ART).
 
 ###Usage:
 
 If you want to unpack an app, you need to install the app and start it . You can observe the log using "logcat" to determine whether the unpacking procedure is finished. Once done, the generated "xxx_class.dex" file is the wanted result which is located in the app's data directory.
 
 
-###File description:le
+###File description:
 
 "demo.mp4" is the demonstration video of unpacking a hardened app by 360 and legu.
 
-"test_legu.apk,test_qihoo.apk" are the sample used in the video.
+"test_legu.apk,test_qihoo.apk" are the samples used in the video.
 
 "art/dex2oat/dex2oat.cc" is the modified file for dex2oat.
 
